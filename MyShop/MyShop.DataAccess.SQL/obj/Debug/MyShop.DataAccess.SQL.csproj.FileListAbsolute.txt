@@ -21,3 +21,13 @@ C:\Users\aies2\source\repos\MyShop\MyShop\MyShop.DataAccess.SQL\bin\Debug\System
 C:\Users\aies2\source\repos\MyShop\MyShop\MyShop.DataAccess.SQL\bin\Debug\System.Web.WebPages.Razor.xml
 C:\Users\aies2\source\repos\MyShop\MyShop\MyShop.DataAccess.SQL\obj\Debug\MyShop.DataAccess.SQL.csprojAssemblyReference.cache
 C:\Users\aies2\source\repos\MyShop\MyShop\MyShop.DataAccess.SQL\obj\Debug\MyShop.DataAccess.SQL.csproj.CopyComplete
+C:\Users\aies2\source\repos\MyShop\MyShop\MyShop.DataAccess.SQL\bin\Debug\MyShop.DataAccess.SQL.dll.config
+C:\Users\aies2\source\repos\MyShop\MyShop\MyShop.DataAccess.SQL\bin\Debug\EntityFramework.dll
+C:\Users\aies2\source\repos\MyShop\MyShop\MyShop.DataAccess.SQL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\aies2\source\repos\MyShop\MyShop\MyShop.DataAccess.SQL\bin\Debug\MyShop.Core.dll
+C:\Users\aies2\source\repos\MyShop\MyShop\MyShop.DataAccess.SQL\bin\Debug\MyShop.Core.pdb
+C:\Users\aies2\source\repos\MyShop\MyShop\MyShop.DataAccess.SQL\bin\Debug\MyShop.Core.dll.config
+C:\Users\aies2\source\repos\MyShop\MyShop\MyShop.DataAccess.SQL\bin\Debug\EntityFramework.xml
+C:\Users\aies2\source\repos\MyShop\MyShop\MyShop.DataAccess.SQL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\aies2\source\repos\MyShop\MyShop\MyShop.DataAccess.SQL\obj\Debug\MyShop.DataAccess.SQL.Migrations.Initial.resources
+C:\Users\aies2\source\repos\MyShop\MyShop\MyShop.DataAccess.SQL\obj\Debug\MyShop.DataAccess.SQL.csproj.GenerateResource.cache
