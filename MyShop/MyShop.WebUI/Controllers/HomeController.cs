@@ -5,13 +5,14 @@ using System.Web;
 using System.Web.Mvc;
 using MyShop.Core.Contracts;
 using MyShop.Core.Models;
+using MyShop.Core.ViewModels;
 
 namespace MyShop.WebUI.Controllers
 {
     public class HomeController : Controller
     {
-        IRepository<Product> context;
-        IRepository<ProductCategory> productCategories;
+        private readonly IRepository<Product> context;
+        private readonly IRepository<ProductCategory> productCategories;
 
         public HomeController(IRepository<Product> productContext, IRepository<ProductCategory> productCategoryContext)
         {
@@ -19,10 +20,27 @@ namespace MyShop.WebUI.Controllers
             productCategories = productCategoryContext;
         }
 
-        public ActionResult Index()
+        public ActionResult Index(string category=null)
         {
-            List<Product> products = context.Collection().ToList();
-            return View(products);
+            /*List<Product> products = context.Collection().ToList();
+            return View(products);*/
+            List<Product> products;
+            List<ProductCategory> categories = productCategories.Collection().ToList(); 
+
+            if(category == null)
+            {
+                products = context.Collection().ToList();
+            }
+            else
+            {
+                products = context.Collection().Where(p => p.Category == category).ToList();
+            }
+            ProductListViewModel model = new ProductListViewModel();
+            model.Products = products;
+            model.ProductCategories = categories;
+
+            return View(model);
+
         }
         public ActionResult Details(string Id)
         {

@@ -14,8 +14,8 @@ namespace MyShop.WebUI.Controllers
     public class ProductManagerController : Controller
     {
 
-        IRepository<Product> context;
-        IRepository<ProductCategory> productCategories;
+        private readonly IRepository<Product> context;
+        private readonly IRepository<ProductCategory> productCategories;
 
         public ProductManagerController(IRepository<Product> context, IRepository<ProductCategory> productCategories)
         {
@@ -39,6 +39,7 @@ namespace MyShop.WebUI.Controllers
         [HttpPost]
         public ActionResult Create(Product product, HttpPostedFileBase file)
         {
+
             if (!ModelState.IsValid)
             {
                 return View(product);
@@ -92,7 +93,6 @@ namespace MyShop.WebUI.Controllers
                 }
                 productToEdit.Category = product.Category;
                 productToEdit.Description = product.Description;
-                productToEdit.Image = product.Image;
                 productToEdit.Name = product.Name;
                 productToEdit.Price = product.Price;
 
