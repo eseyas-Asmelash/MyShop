@@ -21,3 +21,6 @@ C:\Users\aies2\source\repos\MyShop\MyShop\MyShop.Services\bin\Debug\System.Web.W
 C:\Users\aies2\source\repos\MyShop\MyShop\MyShop.Services\bin\Debug\System.Web.WebPages.Razor.xml
 C:\Users\aies2\source\repos\MyShop\MyShop\MyShop.Services\obj\Debug\MyShop.Services.csprojAssemblyReference.cache
 C:\Users\aies2\source\repos\MyShop\MyShop\MyShop.Services\obj\Debug\MyShop.Services.csproj.CopyComplete
+C:\Users\aies2\source\repos\MyShop\MyShop\MyShop.Services\bin\Debug\MyShop.Core.dll
+C:\Users\aies2\source\repos\MyShop\MyShop\MyShop.Services\bin\Debug\MyShop.Core.pdb
+C:\Users\aies2\source\repos\MyShop\MyShop\MyShop.Services\bin\Debug\MyShop.Core.dll.config
