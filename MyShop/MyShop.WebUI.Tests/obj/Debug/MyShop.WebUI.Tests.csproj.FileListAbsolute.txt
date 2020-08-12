@@ -66,3 +66,5 @@ C:\Users\aies2\source\repos\MyShop\MyShop\MyShop.WebUI.Tests\bin\Debug\Unity.Mvc
 C:\Users\aies2\source\repos\MyShop\MyShop\MyShop.WebUI.Tests\bin\Debug\MyShop.DataAccess.SQL.dll
 C:\Users\aies2\source\repos\MyShop\MyShop\MyShop.WebUI.Tests\bin\Debug\MyShop.DataAccess.SQL.pdb
 C:\Users\aies2\source\repos\MyShop\MyShop\MyShop.WebUI.Tests\bin\Debug\MyShop.DataAccess.SQL.dll.config
+C:\Users\aies2\source\repos\MyShop\MyShop\MyShop.WebUI.Tests\bin\Debug\MyShop.Services.dll
+C:\Users\aies2\source\repos\MyShop\MyShop\MyShop.WebUI.Tests\bin\Debug\MyShop.Services.pdb
